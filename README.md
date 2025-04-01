@@ -1,65 +1,95 @@
-# Welcome to your Lovable project
+# Portfolio Website
 
-## Project info
+Welcome to my Portfolio Website repository! This site showcases my work, projects, and skills in web development.
 
-**URL**: https://lovable.dev/projects/600d407d-ad0d-4a5d-9d62-d8eef013d088
+## Table of Contents
 
-## How can I edit this code?
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-There are several ways of editing your application.
+## Installation
 
-**Use Lovable**
+Follow these steps to set up the project locally:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/600d407d-ad0d-4a5d-9d62-d8eef013d088) and start prompting.
+1. **Clone the Repository:**
 
-Changes made via Lovable will be committed automatically to this repo.
+   ```bash
+   git clone https://github.com/ToheedAsghar/portfolio.git
+   cd portfolio
+   ```
 
-**Use your preferred IDE**
+2. **Install Dependencies:**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+   Depending on the technology stack used (for example, if it’s a Node.js project), run:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   ```bash
+   npm install
+   ```
 
-Follow these steps:
+   or if you’re using Yarn:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   yarn install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. **Build the Project:**
 
-# Step 3: Install the necessary dependencies.
-npm i
+   If needed, build the project using:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+   ```bash
+   npm run build
+   ```
 
-**Edit a file directly in GitHub**
+   This command compiles the source code into static assets for production.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Usage
 
-**Use GitHub Codespaces**
+After installation, you can run the portfolio locally:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Start the Development Server:**
 
-## What technologies are used for this project?
+   ```bash
+   npm start
+   ```
 
-This project is built with .
+   or with Yarn:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   yarn start
+   ```
 
-## I want to use a custom domain - is that possible?
+2. **Open in Browser:**
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+   Navigate to [http://localhost:3000](http://localhost:3000) (or the specified port) to see your portfolio in action.
+
+3. **Deploying the Site:**
+
+   You can deploy the built site to platforms like GitHub Pages, Netlify, or Vercel. Check the specific documentation for your chosen platform for further instructions.
+
+## Screenshots
+
+Below is a screenshot of my portfolio website:
+
+![image](https://github.com/user-attachments/assets/5c1a89d7-f627-4b42-9542-3341d8d938f2)
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ToheedAsghar/portfolio/issues).
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+For any questions or suggestions, please reach out via the [GitHub issues page](https://github.com/ToheedAsghar/portfolio/issues) or contact me directly.
